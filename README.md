@@ -1,6 +1,6 @@
 # SauceDemo — Manual QA Testing Project
 
-Manual QA testing project performed on **SauceDemo** (https://www.saucedemo.com), a public e-commerce web application maintained specifically for QA and test-automation practice. This project documents a full manual testing lifecycle — test planning, requirement traceability, test case design, execution, defect logging, and reporting — built as a second portfolio piece to complement my [Doko QA project](https://github.com/Chhyosang/doko-qa-project).
+Manual QA testing project performed on **SauceDemo** (https://www.saucedemo.com) a public e-commerce web application maintained specifically for QA and test-automation practice. This project documents a full manual testing lifecycle — test planning, requirement traceability, test case design, execution, defect logging and reporting — built as a second portfolio piece to complement my [Doko QA project](https://github.com/Chhyosang/doko-qa-project).
 
 ## 🧾 Project Summary
 - **Application under test:** SauceDemo (public QA practice e-commerce app)
