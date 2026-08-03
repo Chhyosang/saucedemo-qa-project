@@ -9,7 +9,7 @@ Manual QA testing project performed on **SauceDemo** (https://www.saucedemo.com)
 - **Test cases designed:** 50
 - **Unique angle:** SauceDemo ships with intentionally "broken" test personas (`problem_user`, `error_user`, `visual_user`, `performance_glitch_user`) that simulate real bugs — this project systematically compares each against a `standard_user` baseline to uncover and document genuine, reproducible defects.
 
-## 🛠️ Tools Used
+##  Tools Used
 | Purpose | Tool |
 |---|---|
 | Test documentation | Excel / Google Sheets |
