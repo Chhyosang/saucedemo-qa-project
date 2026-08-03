@@ -56,7 +56,7 @@ Full details in [`bug-reports/bug-log.xlsx`](../bug-reports/bug-log.xlsx) — re
 ## 7. Sign-off
 | Field | Detail |
 |---|---|
-| Tested By | [Your Name] |
+| Tested By | Chhyosang Lepcha |
 | Test Cycle | Cycle 1 |
-| Date | [Insert Date] |
-| Status | [fill in] |
+| Date | 2026-07-11 |
+| Status | Approved|
