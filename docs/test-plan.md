@@ -6,12 +6,12 @@
 | Project Name | SauceDemo — Public QA Practice E-Commerce Application |
 | Application URL | https://www.saucedemo.com |
 | Document Version | 1.0 |
-| Prepared By | [Your Name] |
+| Prepared By | Chhyosang Lepcha |
 | Role | QA Engineer (Manual Testing) |
-| Date | [Insert Date] |
+| Date | 2026-07-11 |
 
 ## 2. Introduction
-SauceDemo is a publicly available demo e-commerce web application maintained specifically for QA and test-automation practice. It simulates a small storefront (login, product browsing, cart, checkout) and ships with multiple test user personas that intentionally exhibit different bugs. This project documents a full manual QA testing cycle performed against SauceDemo, including test planning, test case design, execution, defect logging, and reporting.
+SauceDemo is a publicly available demo e-commerce web application maintained specifically for QA and test-automation practice. It simulates a small storefront (login, product browsing, cart, checkout) and ships with multiple test user personas that intentionally exhibit different bugs. This project documents a full manual QA testing cycle performed against SauceDemo, including test planning, test case design, execution, defect logging and reporting.
 
 ## 3. Objectives
 - Verify core e-commerce functionality (login, browsing, cart, checkout) behaves correctly for a standard user.
@@ -44,7 +44,7 @@ SauceDemo is a publicly available demo e-commerce web application maintained spe
 - **Functional Testing** — verify each feature against expected behavior using `standard_user`.
 - **Negative Testing** — invalid credentials, empty required fields, locked-out account.
 - **Exploratory / Persona-Based Bug Hunting** — compare `problem_user`, `error_user`, `visual_user`, and `performance_glitch_user` against the `standard_user` baseline to uncover planted defects.
-- **UI/Visual Testing** — layout, alignment, and image-consistency checks.
+- **UI/Visual Testing** — layout, alignment and image-consistency checks.
 - **Cross-Browser Testing** — Chrome and Firefox, key flows only.
 - **Regression Testing** — re-verify related cases after any noted defect.
 
@@ -60,7 +60,7 @@ SauceDemo is a publicly available demo e-commerce web application maintained spe
 ## 7. Roles & Responsibilities
 | Role | Responsibility |
 |---|---|
-| QA Tester (You) | Test planning, test case design, execution, bug logging, reporting |
+| QA Tester| Test planning, test case design, execution, bug logging, reporting |
 
 ## 8. Entry Criteria
 - SauceDemo application is accessible at the URL above.
@@ -100,4 +100,4 @@ SauceDemo is a publicly available demo e-commerce web application maintained spe
 ## 13. Approval
 | Name | Role | Signature/Date |
 |---|---|---|
-| [Your Name] | QA Engineer | |
+| Chhyosang Lepcha | QA Engineer |2026-07-11 |
