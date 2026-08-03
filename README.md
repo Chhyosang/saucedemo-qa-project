@@ -60,5 +60,5 @@ See [`bug-reports/bug-log.xlsx`](bug-reports/bug-log.xlsx) for the full list wit
 ## 🙋 About Me
 This project was created to practice and demonstrate manual QA testing skills for my resume and portfolio, using a publicly available, purpose-built QA practice application.
 
-**[Your Name]**
-[LinkedIn] | [Email] | [Portfolio]
+**Chhyosang Lepcha**
+www.linkedin.com/in/chhyosang-lepcha-088182215 | chhyosanglepcha@gmail.com | [Portfolio]
