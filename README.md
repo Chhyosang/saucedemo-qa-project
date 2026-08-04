@@ -51,10 +51,11 @@ saucedemo-qa-project/
 ##  Key Defects Found
 See [`bug-reports/bug-log.xlsx`](bug-reports/bug-log.xlsx) for the full list with screenshots and severity classification.
 
-##  Result Snapshot
+## Result Snapshot
+
 - 50 test cases executed across 13 module categories
-- [X] Passed / [X] Failed / [X] Blocked
-- [X] real defects identified via persona-based bug hunting
+- 46 Passed / 4 Failed / 0 Blocked
+- 4 verified defects identified through persona-based testing (`problem_user`, `error_user`, and `visual_user`)
 
 ##  About Me
 This project was created to practice and demonstrate manual QA testing skills for my resume and portfolio, using a publicly available, purpose-built QA practice application.
