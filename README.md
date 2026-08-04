@@ -49,7 +49,7 @@ saucedemo-qa-project/
 - **Cross-Browser & Responsive Testing** — Chrome vs. Firefox, mobile-width layout checks
 
 ##  Key Defects Found
-See [`bug-reports/bug-log.xlsx`](bug-reports/bug-log.xlsx) for the full list with screenshots and severity classification.
+See [`bug-reports/improvedbuglog.xlsx`](bug-reports/improvedbuglog.xlsx) for the full list with screenshots, reproduction steps, severity classification, and current status.
 
 ## Result Snapshot
 
