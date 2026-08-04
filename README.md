@@ -52,7 +52,6 @@ saucedemo-qa-project/
 See [`bug-reports/bug-log.xlsx`](bug-reports/bug-log.xlsx) for the full list with screenshots and severity classification.
 
 ##  Result Snapshot
-*(Update once execution is complete)*
 - 50 test cases executed across 13 module categories
 - [X] Passed / [X] Failed / [X] Blocked
 - [X] real defects identified via persona-based bug hunting
