@@ -64,8 +64,13 @@ Full defect details are available in [`bug-reports/bug-log.xlsx`](../bug-reports
   - No functional issues were observed after login, although minor performance delays were noticeable during page loading.
 
 ## 6. Recommendations
-- [Fill in based on your findings — e.g., "Fix the image-mapping issue for problem_user before considering this build stable"]
-- Re-run the full persona comparison suite periodically, since SauceDemo may update its planted bugs over time.
+
+- Fix the product image mapping issues for `problem_user` to ensure that product images correctly match their names and descriptions on both the Products page and Product Details page.
+- Investigate and resolve the product sorting issue for `error_user` so that all sorting options (A–Z, Z–A, Price Low–High, and Price High–Low) produce the expected order.
+- Correct the visual layout and alignment issues observed for `visual_user` while ensuring that no functional behavior is affected.
+- Review and optimize the login performance for `performance_glitch_user` to reduce page load time and provide a more consistent user experience.
+- Re-test all affected test cases after fixes are implemented and perform regression testing to verify that no existing functionality has been impacted.
+- Re-run the full persona comparison suite periodically, as SauceDemo may update or modify the intentionally introduced persona-specific defects over time.
 
 ## 7. Sign-off
 | Field | Detail |
