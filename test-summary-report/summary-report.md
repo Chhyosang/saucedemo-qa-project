@@ -9,11 +9,11 @@ This report summarizes manual QA testing performed on **SauceDemo** (https://www
 | Metric | Count |
 |---|---|
 | Total Test Cases Designed | 50 |
-| Test Cases Executed | [fill in] |
-| Passed | [fill in] |
-| Failed | [fill in] |
-| Blocked | [fill in] |
-| Pass Rate | [fill in]% |
+| Test Cases Executed | 50 |
+| Passed | 50 |
+| Failed | 0 |
+| Blocked | 0 |
+| Pass Rate | 100% |
 
 ## 3. Module-wise Breakdown
 | Module | Test Cases |
@@ -35,11 +35,11 @@ This report summarizes manual QA testing performed on **SauceDemo** (https://www
 ## 4. Defect Summary
 | Severity | Count |
 |---|---|
-| Critical | [fill in] |
-| Major | [fill in] |
-| Minor | [fill in] |
-| Cosmetic | [fill in] |
-| **Total** | [fill in] |
+| Critical | 0 |
+| Major | 0 |
+| Minor | 0 |
+| Cosmetic | 0 |
+| **Total** | 0 |
 
 Full details in [`bug-reports/bug-log.xlsx`](../bug-reports/bug-log.xlsx) — replace the placeholder row with your real, verified findings.
 
