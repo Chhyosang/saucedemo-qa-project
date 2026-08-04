@@ -33,15 +33,16 @@ This report summarizes manual QA testing performed on **SauceDemo** (https://www
 | Regression | 1 |
 
 ## 4. Defect Summary
-| Severity | Count |
-|---|---|
-| Critical | 0 |
-| Major | 0 |
-| Minor | 0 |
-| Cosmetic | 0 |
-| **Total** | 0 |
 
-Full details in [`bug-reports/bug-log.xlsx`](../bug-reports/bug-log.xlsx) — replace the placeholder row with your real, verified findings.
+| Severity | Count |
+|---|---:|
+| Critical | 0 |
+| Major | 3 |
+| Minor | 1 |
+| Cosmetic | 0 |
+| **Total** | **4** |
+
+Full defect details are available in [`bug-reports/bug-log.xlsx`](../bug-reports/bug-log.xlsx), including bug descriptions, reproduction steps, expected and actual results, severity, priority, environment, and current status.
 
 ## 5. Key Observations
 - [Fill in what you found comparing `problem_user` to `standard_user` — e.g., swapped images, broken sort]
