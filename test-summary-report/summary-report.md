@@ -6,14 +6,15 @@ This report summarizes manual QA testing performed on **SauceDemo** (https://www
 > **Note:** This template ships with placeholder numbers. Replace every figure below with your real results once you've executed all 50 test cases and logged your actual findings.
 
 ## 2. Test Execution Summary
+
 | Metric | Count |
-|---|---|
+|---|---:|
 | Total Test Cases Designed | 50 |
 | Test Cases Executed | 50 |
-| Passed | 50 |
-| Failed | 0 |
+| Passed | 46 |
+| Failed | 4 |
 | Blocked | 0 |
-| Pass Rate | 100% |
+| Pass Rate | 92% |
 
 ## 3. Module-wise Breakdown
 | Module | Test Cases |
@@ -45,10 +46,22 @@ This report summarizes manual QA testing performed on **SauceDemo** (https://www
 Full defect details are available in [`bug-reports/bug-log.xlsx`](../bug-reports/bug-log.xlsx), including bug descriptions, reproduction steps, expected and actual results, severity, priority, environment, and current status.
 
 ## 5. Key Observations
-- [Fill in what you found comparing `problem_user` to `standard_user` — e.g., swapped images, broken sort]
-- [Fill in what you found comparing `error_user` to `standard_user` — e.g., checkout/form issues]
-- [Fill in what you found comparing `visual_user` to `standard_user` — e.g., layout/alignment differences]
-- [Fill in your observation on `performance_glitch_user` login time vs. `standard_user`]
+
+- **problem_user**
+  - Multiple product images did not match their corresponding product names and descriptions on both the Products page and Product Details page.
+  - The issue was reproducible and differed from the expected behavior observed with `standard_user`.
+
+- **error_user**
+  - Product sorting did not consistently follow the selected sort option, resulting in an incorrect product order.
+  - Other core functions, such as login and cart operations, behaved similarly to `standard_user` during testing.
+
+- **visual_user**
+  - Checkout completed successfully, but visual inconsistencies such as layout and element alignment differences were observed compared to `standard_user`.
+  - These issues affected the user interface only and did not impact application functionality.
+
+- **performance_glitch_user**
+  - Login completed successfully, but the application responded slightly slower than `standard_user`.
+  - No functional issues were observed after login, although minor performance delays were noticeable during page loading.
 
 ## 6. Recommendations
 - [Fill in based on your findings — e.g., "Fix the image-mapping issue for problem_user before considering this build stable"]
