@@ -21,17 +21,24 @@ SauceDemo is a publicly available demo e-commerce web application maintained spe
 ## 4. Scope
 
 ### 4.1 In Scope
+
+### 4.1 In Scope
+
 | Module | Key Features to Test |
 |---|---|
-| Login | Valid login, locked-out user, invalid credentials, empty fields |
-| Product Listing (Inventory) | Product display, sorting (name/price asc-desc), cart icon badge |
-| Product Detail | Product info accuracy, add/remove from cart |
-| Shopping Cart | Add/remove items, cart contents accuracy, navigation |
-| Checkout (Step 1 – Information) | Field validation (first name, last name, zip) |
-| Checkout (Step 2 – Overview) | Order summary accuracy, price/tax/total calculation |
-| Checkout (Step 3 – Complete) | Confirmation message, cart reset |
-| Logout / Session | Logout flow, direct URL access after logout |
-| Persona-based bug hunting | `problem_user`, `error_user`, `visual_user`, `performance_glitch_user` compared against `standard_user` baseline |
+| Login | Verify successful login, invalid login, locked-out user, empty required fields, and session handling. |
+| Product Listing (Inventory) | Verify product display, product information, sorting options, cart badge updates, and navigation to product details. |
+| Product Detail | Verify product information, product images, and Add to Cart/Remove functionality. |
+| Shopping Cart | Verify adding/removing products, cart contents, quantity, and Continue Shopping/Checkout navigation. |
+| Checkout (Step 1 – Information) | Verify required field validation, valid customer information, Cancel button, and form validation. |
+| Checkout (Step 2 – Overview) | Verify order summary, payment information, shipping information, item prices, tax calculation, and total amount. |
+| Checkout (Step 3 – Complete) | Verify successful order completion, confirmation message, Back Home navigation, and cart reset. |
+| Logout / Session | Verify logout functionality, session termination, and prevention of unauthorized access after logout. |
+| Cross-Browser Compatibility | Verify core functionality in supported browsers (Chrome and Firefox). |
+| Responsive UI | Verify that pages remain usable on different screen sizes and mobile viewports. |
+| Browser Navigation | Verify browser Back/Forward behavior during shopping and checkout. |
+| Persona-Based Bug Hunting | Compare `problem_user`, `error_user`, `visual_user`, and `performance_glitch_user` with the `standard_user` baseline to identify persona-specific defects. |
+| Regression Testing | Re-execute affected test cases after defect fixes to verify corrections and ensure no regression. |
 
 ### 4.2 Out of Scope
 - Test automation / scripting
@@ -53,7 +60,7 @@ SauceDemo is a publicly available demo e-commerce web application maintained spe
 |---|---|
 | Application URL | https://www.saucedemo.com |
 | Test Accounts | standard_user, locked_out_user, problem_user, error_user, visual_user, performance_glitch_user (password: secret_sauce) |
-| Browsers | Chrome, Firefox (latest versions) |
+| Browsers | Chrome, Firefox |
 | Devices | Desktop; mobile-width browser resize for responsive check |
 | Tools | Browser DevTools, Excel/Google Sheets, GitHub Issues |
 
@@ -73,19 +80,23 @@ SauceDemo is a publicly available demo e-commerce web application maintained spe
 - Test summary report has been prepared.
 
 ## 10. Test Deliverables
-1. Test Plan (this document)
-2. Requirement Traceability Matrix (RTM)
-3. Test Case Document (baseline + negative + persona-based bug hunting)
-4. Bug Reports (with screenshots)
-5. Test Summary Report
-6. Execution evidence (screenshots comparing personas to baseline)
+
+1. **Test Plan** – Defines the testing scope, objectives, strategy, schedule, and deliverables.
+2. **Requirement Traceability Matrix (RTM)** – Maps project requirements to corresponding test cases.
+3. **Manual Test Case Document** – Contains 50 test cases covering positive, negative, boundary, exploratory, cross-browser, responsive UI, and regression testing.
+4. **Bug Report Log** – Documents verified defects with reproduction steps, expected and actual results, severity, priority, environment, and status.
+5. **Test Execution Summary Report** – Summarizes test execution results, pass/fail statistics, defect summary, key observations, and recommendations.
+6. **Execution Evidence (Screenshots)** – Screenshots demonstrating successful test execution, validation messages, checkout flow, and documented defects.
 
 ## 11. Risk & Mitigation
+
 | Risk | Mitigation |
 |---|---|
-| SauceDemo's known bugs may change over time as it's updated | Document the date of testing; note application version/state if visible |
-| Solo tester, limited time | Prioritize baseline (`standard_user`) and persona bug-hunting cases first |
-| Some "bugs" may be intentional demo features, not real defects | Cross-check against `standard_user` baseline before logging; note uncertainty in the bug report if unsure |
+| SauceDemo's intentionally buggy personas (`problem_user`, `error_user`, `visual_user`, `performance_glitch_user`) may change over time. | Record the testing date and compare results with the `standard_user` baseline before reporting defects. |
+| Browser-specific behavior may affect test results. | Execute critical test cases in multiple browsers (Chrome and Firefox) and compare the results. |
+| Limited testing time and a single tester may reduce overall test coverage. | Prioritize high-risk modules such as Login, Shopping Cart, Checkout, and Persona-Based Bug Hunting. |
+| Some observed behaviors may be intentional demonstration features rather than genuine application defects. | Verify each issue against the `standard_user` account and document findings with screenshots before logging a defect. |
+| Future application updates may impact existing test cases and defect reports. | Review and update test cases, RTM, and bug reports whenever the application changes. |
 
 ## 12. Schedule (Sample)
 | Phase | Duration |
